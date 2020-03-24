@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flare_splash_screen/flare_splash_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,7 +11,14 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: SplashScreen.navigate(
+        name: "assets/Blog Splash.flr",
+        next: (context) => MyHomePage(title: "Flutter Demo Home Page"),
+        until: () => Future.delayed(Duration(seconds: 5)),
+        startAnimation: "splash",
+        backgroundColor: Colors.white,
+        fit: BoxFit.fill,
+      ),
     );
   }
 }
