@@ -1,16 +1,13 @@
 # gbot_animation
 
-A new Flutter project.
+Adding Splash Screen Animation to Default Flutter App
 
-## Getting Started
+## Introduction
 
-This project is a starting point for a Flutter application.
+This is project created for a [blogpost](https://gbot.dev/2020/03/24/adding-splash-screen-animation-to-default-flutter-app/) on gbot.dev.
 
-A few resources to get you started if this is your first Flutter project:
+I made a splash screen animation with [Rive](https://rive.app/explore/popular/trending/all) (formerly known as Flare) and implemented it to default Flutter app.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Rive
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Rive is a real-time interactive design tool that allows you to design, animate, and immediately integrate your assets into any platform thanks to their open source runtimes.
